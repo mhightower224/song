@@ -1,3 +1,55 @@
-body {
-    background: rgb(89, 255, 0);
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root {
+  --color-1 : #F0EAD2;
+  --color-2 : #DDE5B6;
+  --color-3 : #ADC178;
+  --color-4 : #A98467;
+  --color-5 : #6C584C;
+  --HeadingFont : 'Signika', sans-serif;
+  --BodyFont : 'Roboto Mono', monospace;
+  
 }
+
+
+
+
+h1{
+  font-family: var(--HeadingFont);
+}
+
+p{
+  font-family: var(--BodyFont);
+}
+
+a:link,
+a:visited{
+  color : var(--color-5);
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+a:hover,
+a:active{
+  border-bottom: 4px solid var(--color-5);
+}
+
+p{
+  font-size: .9em;
+  line-height: 1.3em;
+}
+
+main{
+  background: var(--color-1);
+  width: 50%;
+  margin: 120px auto 0 auto;
+  padding: 12px;
+  border: 12px solid var(--color-2);
+}
+
+audio {
+  width: 100%;
+}
+
