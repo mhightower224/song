@@ -53,3 +53,9 @@ audio {
   width: 100%;
 }
 
+body{
+  background-image: url(photo-1514401375831-85d3789fd515.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
